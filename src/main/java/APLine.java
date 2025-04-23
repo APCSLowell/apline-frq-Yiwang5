@@ -2,7 +2,7 @@ public class APLine
 {
   private int a,b,c;
   
-  public APLine(num1, num2, num3){
+  public APLine(int num1,int num2,int num3){
   a = num1;
   b = num2;
   c = num3;
@@ -12,7 +12,7 @@ public class APLine
   return temp;
   }
 
-  public Boolean isOnline(x,y){
+  public Boolean isOnline(int x, int y){
   boolean temp = (a*x) + (a*y) + c == 0;
   return temp;
   }
