@@ -6,6 +6,7 @@ public class APLine
   a = num1;
   b = num2;
   c = num3;
+    
   }
   public double getSlope(){
   double temp = (double) -a/b;
