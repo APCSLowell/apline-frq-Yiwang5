@@ -14,7 +14,7 @@ public class APLine
   }
 
   public Boolean isOnLine(int x, int y){
-  boolean temp = (a*x) + (a*y) + c == 0;
-  return temp;
+  return (a * x + b * y + c) == 0;
+  
   }
 }
